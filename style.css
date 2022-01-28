@@ -1,18 +1,59 @@
- /* Estilo do menu */
- 
- 
- 
- /* Estilo da foto de perfil */
- div.fotos img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    width: 180px;
+/* Estilo para Scroll suave para toda a página*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilo do menu */
+.menu {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.menu ul {
+  list-style: none;
+  background: #ff7675;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  font-size: 18px;
+  align-items: center;
+  justify-content: space-evenly;
   
-div.desc {
-    padding: 15px;
-    text-align: center;
 }
+
+.menu li a {
+  text-align: center;
+  display: flex;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 14px 16px;
+}
+
+.menu li:hover {
+  background-color: #ffb703;
+}
+
+/* Estilo da foto de perfil */
+div.QuemSouEu img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 180px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+/* Estilo do Texto "Quem sou eu"*/
