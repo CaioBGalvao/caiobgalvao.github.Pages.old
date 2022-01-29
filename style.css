@@ -1,59 +1,64 @@
-/* Estilo para Scroll suave para toda a página*/
-* {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+/* Estilo para toda página*/
+html,
+body {
+  height: 100%;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-html {
-  scroll-behavior: smooth;
+body {
+  z-index: 2;
 }
 
 /* Estilo do menu */
 .menu {
+  /*Estilo que faz o menu visível sempre no topo*/
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 1;
 }
 
 .menu ul {
   list-style: none;
-  background: #ff7675;
+  background: #45a2ff;
   display: flex;
   list-style: none;
   width: 100%;
-  font-size: 18px;
+  font-size: max(20px, 2vh); /*viewport unit (height) 1%*/
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  justify-content: space-evenly;
-  
 }
 
 .menu li a {
   text-align: center;
   display: flex;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: white;
   text-decoration: none;
   font-weight: bold;
-  padding: 14px 16px;
+  padding: 2vh 2vh;
 }
 
 .menu li:hover {
-  background-color: #ffb703;
+  background-color: #5eafff;
 }
 
 /* Estilo da foto de perfil */
-div.QuemSouEu img {
-  width: 100%;
-  height: auto;
+div.Quem-Sou-Eu img {
   display: block;
   margin: 0 auto;
   border-radius: 50%;
   width: 180px;
 }
 
+/*Estilo do meu nome*/
 div.desc {
-  padding: 15px;
+  font-family: "Quintessential", cursive;
+  font-size: max(50px, 4vh); /*viewport unit (width) 1%*/
+  padding: 30px;
   text-align: center;
 }
 /* Estilo do Texto "Quem sou eu"*/
