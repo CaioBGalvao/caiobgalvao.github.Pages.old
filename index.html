@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="Keywords" content="CaioBGalvao, Portifólio, Caio Barbosa Galvão">
   <meta name="Description"
-    content="Site de portifólio do CaioBGalvao enquanto ele estuda na Trybe contendo doas as Hard Skills, ou seja, stacks e informação de contato.">
+    content="Site de portifólio do CaioBGalvao enquanto ele estuda na Trybe contendo Todas as Hard Skills, ou seja, stacks e informação de contato.">
   <title>Portifílio do Caio</title>
   <link
     href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMdgAAdesAAHXdAAB13QAAdd0AAHXdAAB13QAAdd0AAHRdAAB13QAAdd0AAHXdAAB13QAAdd0AAHXdAAAMXQAA"
@@ -18,26 +18,27 @@
 
 <body>
   <!--Menu-->
-  <header>
-    <nav class="menu">
+  <header id="menu">
+    <nav>
       <ul>
-        <li><a href="/index.html">Sobre mim</a></li>
-        <li><a href="/Skills.html">Minhas Habilidades</a></li>
-        <li><a href="/Social.html">Minhas redes</a></li>
+        <li><a href="#SobreMim-Conteudo">Sobre mim</a></li>
+        <li><a href="#Intro-Skills">Minhas Habilidades</a></li>
+        <li><a href="#Social">Minhas redes</a></li>
       </ul>
     </nav>
   </header>
 
   <!--Foto de Perfil-->
   <main>
-    <div class="Perfil">
+    <div id="Perfil">
       <img src="perfil.jpeg" alt="Foto de Perfil do CaioBGalvao">
-      <div class="desc">Caio Barbosa Galvão</div>
+      <div class="MeuNome typing-animation">Caio Barbosa Galvão</div>
     </div>
 
     <!--Sobre Mim-->
-    <div class="SobreMim">
-      <section class="SobreMim-Conteudo">
+    <div class="CaixaDeTexto">
+      <section id="SobreMim-Conteudo">
+        <h1>Sobre mim</h1>
         <p>Olá! Meu nome é <strong>Caio Barbosa Galvão</strong>, atualmente estou estudando na <a
             href="https://betrybe.com">Trybe</a> e desejo aprender muito sobre <em>Desenvolvimento Web do Front-End até
             o
@@ -52,7 +53,105 @@
         </ul>
       </section>
     </div>
+    <br>
+    <!-- Intrudução das Skills -->
+    <div class="CaixaDeTexto">
+      <section id="Intro-Skills">
+        <h1>Minhas habilidades</h1>
+        <p>Na <a href="https://betrybe.com">Trybe</a> eu estudei muito sobre <em>Hard Skills</em> e também sobre
+          <em>Soft Skills</em> e isso me permitiu me organizar melhor, me liderar, me comunicar melhor entre
+          tantos outros aprendizados.
+        </p>
+      </section>
+    </div>
+    <br>
+    <!--Skills-->
+    <div class="CaixaDeTexto Skills">
+      <section id="Skills-Conteudo">
+        <h2>Stacks</h2>
+        <h3>Controle de versão</h3>
+
+        <img alt="Logo do Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg">
+        <img alt="Logo do GitHub"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg">
+
+        <h3>Front-End</h3>
+
+        <img alt="Logo do JavaScript"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+        <img alt="Logo do React"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg">
+        <img alt="Logo do HTML 5"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg">
+        <img alt="Logo do CSS 3"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg">
+        <img alt="Logo do Redux" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" />
+        <img alt="Logo do Jest" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg">
+
+        <h3>Back-End</h3>
+
+        <img alt="Logo da TypeScript"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
+        <img alt="Logo do Docker"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg">
+        <img alt="Logo do Heroku"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original-wordmark.svg">
+        <img alt="Logo do MySQL"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg">
+        <img alt="Logo do MongoDB"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg">
+        <img alt="Logo do Node.JS"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg">
+        <img alt="Logo do Pyton"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg">
+
+
+        <h3>IDE</h3>
+
+        <img alt="Logo do VSCODE"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg">
+
+        <h3>OS</h3>
+
+        <img alt="Logo do Linux" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg">
+        <img alt="Logo do Ubunto"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain-wordmark.svg">
+        <img alt="Logo do Windows"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg">
+
+        <h3>Comandos Shell</h3>
+
+        <img alt="Logo do bash" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg">
+
+        <h3>Gestão e Comunicação</h3>
+
+        <img alt="Logo do Trello"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain-wordmark.svg">
+        <img alt="Logo do Slack"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original-wordmark.svg">
+      </section>
+    </div>
+    <br>
+    <!--Onde me encontrar-->
+    <div class="CaixaDeTexto">
+      <section id="Social">
+        <h2>Me encontre na Internet</h2>
+        <a href="https://www.linkedin.com/in/CaioBGalvao/" target="_blank"><img
+            src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+            target="_blank"></a>
+        <a href="https://twitter.com/Caio_BGalvao" target="_blank"><img
+            src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"
+            target="_blank"></a>
+        <a href="https://github.com/CaioBGalvao" target="_blank"><img
+            src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+            target="_blank"></a>
+        <br>
+      </section>
+    </div>
   </main>
+  <footer>
+
+  </footer>
 </body>
 
 </html>
