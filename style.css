@@ -11,10 +11,6 @@ body {
   margin-right: auto;
 }
 
-/* body {
-  z-index: 1;
-} */
-
 /* Estilo do menu */
 #menu {
   position: sticky; /* Estilo que faz o menu visível sempre no topo */
@@ -35,7 +31,7 @@ body {
 #menu li a {
   text-align: center;
   display: flex;
-  color: white;
+  color: #353535;
   text-decoration: none;
   font-weight: bold;
   padding: 2vh 2vh;
